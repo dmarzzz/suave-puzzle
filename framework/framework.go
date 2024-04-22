@@ -171,12 +171,12 @@ type Config struct {
 
 func DefaultConfig() *Config {
 	return &Config{
-		KettleRPC:  "http://localhost:8545",
-		KettleAddr: common.HexToAddress("b5feafbdd752ad52afb7e1bd2e40432a485bbb7f"),
+		KettleRPC:  "https://rpc.rigil.suave.flashbots.net",
+		KettleAddr: common.HexToAddress("03493869959C866713C33669cA118E774A30A0E5"),
 
 		// This account is funded in both devnev networks
 		// address: 0xBE69d72ca5f88aCba033a063dF5DBe43a4148De0
-		FundedAccount: NewPrivKeyFromHex("91ab9a7e53c220e6210460b65a7a3bb2ca181412a8a7b43ff336b3df1737ce12"),
+		FundedAccount: NewPrivKeyFromHex("bab10e221a04567ca0445fb7570843ce36da5177bd8f33584f972d299fe74bfb"),
 	}
 }
 
